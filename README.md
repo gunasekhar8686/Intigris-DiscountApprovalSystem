@@ -90,7 +90,7 @@ Each tier maps to a Salesforce Queue (`Sales_Manager_Approvals`, `Director_Appro
 - Email notifications go to the queue's shared inbox plus every individual member.
 - Queue DeveloperNames are stored in Custom Metadata, so routing rules and queue configuration are decoupled.
 
-**Trade-off accepted:** Salesforce queue ownership does not enforce record-level sharing by default. If the org's Opportunity OWD is Private, approvers may not see the parent Opportunity without an explicit sharing rule. This is deferred (see Section 3).
+**Trade-off accepted:** Salesforce queue ownership does not enforce record-level sharing by default. If the org's Opportunity OWD is Private, approvers may not see the parent Opportunity without an explicit sharing rule. This is deferred (see Section 5).
 
 ---
 

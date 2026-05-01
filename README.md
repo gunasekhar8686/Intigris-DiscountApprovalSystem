@@ -138,7 +138,7 @@ Each tier maps to a Salesforce Queue (`Sales_Manager_Approvals`, `Director_Appro
 | **Claude Code** (Anthropic, claude-sonnet-4-6) | Primary coding assistant — architecture design, all Apex classes, metadata XML, LWC, test classes, debugging |
 | **VS Code + Salesforce Extension Pack** | IDE, org auth, source tracking, deploy via integrated terminal |
 | **Salesforce CLI (`sf`)** | Deploy, test run, org management from terminal |
-| **GitHub** | Version control and remote repository — all commits, history, and final deliverable hosted at github.com/gunasekhar8686/IntigrisDiscountApprovalSystem |
+| **GitHub** | Version control and remote repository — all commits, history, and final deliverable hosted at github.com/gunasekhar8686/Intigris-DiscountApprovalSystem |
 | **Claude.ai web** | Architecture brainstorming before opening the editor |
 
 Claude Code was used as an in-editor agent — not just for code generation but for iterative reasoning: asking it to explain a design decision, propose alternatives, and then defend the chosen approach. Every generated file was reviewed, deployed to a live org, and tested before being accepted.
@@ -233,7 +233,7 @@ Rather than patching both issues in Flow — which has no bulk-collection patter
 **1. Clone the repository**
 
 ```bash
-git clone https://github.com/gunasekhar8686/IntigrisDiscountApprovalSystem.git
+git clone https://github.com/gunasekhar8686/Intigris-DiscountApprovalSystem.git
 cd IntigrisDiscountApprovalSystem
 ```
 
